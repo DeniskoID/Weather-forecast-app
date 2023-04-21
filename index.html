@@ -7,18 +7,50 @@
     <title>Weather forecast</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="wrapper">
 <header class="header">
     <div class="container header-container">
-        <h1 class="header-title">
-            Weather forecast
-        </h1>
-        <form class="header-form">
-            <input class="header-input" type="text" placeholder="Enter your city">
-            <button class="header-btn">Show</button>
-        </form>
+        <div class="content-wrapper">
+            <h1 class="header-title">
+                Weather forecast
+            </h1>
+            <form class="header-form">
+                <input class="header-input" type="text" placeholder="Enter your city">
+                <button class="header-btn">Show</button>
+            </form>
+        </div>
     </div>
 </header>
+<main>
+    <article class="weather-card">
+        <div class="container weather-container">
+            <div class="weather-wrapper">
+            <span class="weather-city">
+                London
+            </span>
+                <div class="weather-country-badge">
+                    Gb
+                </div>
+                <div class="weather-line-wrapper">
+                    <div class="weather-temp">
+                        11°C
+                    </div>
+                    <div class="weather-image">
+                        <img src="assets/img/clouds_icon.svg" alt="Clouds icon" width="96" height="96">
+                    </div>
+                </div>
+                <div class="weather-detailed">
+                    Cloudy
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+<footer class="footer">
+    <div class="container footer-container">
+        <a href="/">Copyright</a>
+    </div>
+</footer>
 <script src="index.js"></script>
 </body>
 </html>
