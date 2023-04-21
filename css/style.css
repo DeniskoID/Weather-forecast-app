@@ -1,0 +1,68 @@
+@import "reset.css";
+@import "fonts.css";
+
+:root {
+  /* base */
+  --font-family: "Inter", sans-serif;
+  --content-width: 1176px;
+  --container-offset: 20px;
+  --container-width:
+    calc(
+      var(--content-width) + (var(--container-offset) * 2)
+    );
+
+  /* font-sizes */
+  --title: 40px;
+  --big-text: 60px;
+  --city-text: 20px;
+  --content-text: 15px;
+  --content_2-text: 20px;
+
+  /* colors */
+  --light-color: #fff;
+  --accent-color: #1584df;
+  --active-color: #e00e00;
+  --text-color: #f1f1f1;
+  --dark-color: #1e1d21;
+
+  /* shadows */
+  --card-shadow: 0 0 57px rgb(82 120 255 / 29%);
+}
+
+.container {
+  margin: 0 auto;
+  padding-right: var(--container-offset);
+  padding-left: var(--container-offset);
+  width: 100%;
+  max-width: var(--container-width);
+}
+
+.header {
+  width: 100%;
+  background-color: var(--dark-color);
+}
+
+.header-container {
+  padding-top: 56px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+.header-title {
+  margin-bottom: 28px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: var(--title);
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.header-form {
+}
+
+.header-input {
+}
+
+.header-btn {
+}
