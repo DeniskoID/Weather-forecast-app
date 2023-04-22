@@ -14,15 +14,15 @@
             <h1 class="header-title">
                 Weather forecast
             </h1>
-            <form class="header-form">
-                <input class="header-input" type="text" placeholder="Enter your city">
+            <form id="form" class="header-form">
+                <input id="inputCity" class="header-input" type="text" placeholder="Enter your city">
                 <button class="header-btn">Show</button>
             </form>
         </div>
     </div>
 </header>
 <main>
-    <article class="weather-card">
+    <!--<article class="weather-card">
         <div class="container weather-container">
             <div class="weather-wrapper">
             <span class="weather-city">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="weather-line-wrapper">
                     <div class="weather-temp">
-                        11°C
+                        11<sup>°C</sup>
                     </div>
                     <div class="weather-image">
                         <img src="assets/img/clouds_icon.svg" alt="Clouds icon" width="96" height="96">
@@ -44,13 +44,14 @@
                 </div>
             </div>
         </div>
-    </article>
+    </article>-->
 </main>
 <footer class="footer">
     <div class="container footer-container">
         <a href="/">Copyright</a>
     </div>
 </footer>
-<script src="index.js"></script>
+<script src="conditions.js" type="module"></script>
+<script src="script.js" type="module"></script>
 </body>
 </html>
